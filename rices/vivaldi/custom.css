@@ -1,0 +1,174 @@
+/*make new background behind everything*/
+
+.inner {
+    background: linear-gradient(rgba(33, 33, 33, .75), rgba(33, 33, 33, .75)), url('background/13.png') !important;
+    background-size: cover !important;
+}
+
+
+/*fix panel collapse color*/
+
+#panels-container {
+    background-color: rgb(33, 33, 33, .95) !important;
+}
+
+
+/*fix tabs container*/
+
+#tabs-container {
+    background-color: rgb(33, 33, 33, 0.2) !important;
+    background-image: none !important;
+    font-family: monospace !important;
+}
+
+
+/*fonts*/
+
+.addressfield,
+.button-addressfield,
+.vivaldi-addressfield,
+#panels-container,
+.panel-group select,
+.panel-group input,
+.panel .toolbar,
+.sortselector-dropdown {
+    font-family: monospace !important;
+}
+
+
+/*fix titlebar stuff*/
+
+.toolbar-addressbar,
+.toolbar,
+.extensions-wrapper .actionVisibility-hidden {
+    background: rgb(32, 32, 33) !important;
+}
+
+.profile-popup {
+    display: none;
+}
+
+.addressfield:focus-within {
+    border-color: var(--colorBgIntenser) !important;
+    color: rgba(185, 186, 187, 1.0) !important;
+    box-shadow: none;
+}
+
+.addressfield {
+    color: rgba(185, 186, 187, .8) !important;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+
+.application-icon {
+    padding: 4px 2px 0px 1px !important;
+}
+
+.minimal-ui .application-icon {
+    padding: 2px 8px 0px 0px !important;
+}
+
+#header {
+    /*font-family: monospace;*/
+    min-height: 0px;
+}
+
+.button-addressfield,
+.addressfield-siteinfo,
+.bookmark-outline,
+#panel_switch svg polygon,
+.close {
+    fill: rgb(105, 105, 105) !important;
+}
+
+.toolbar .toggle-extensions-group {
+    fill: rgb(105, 105, 105) !important;
+    min-width: 0 !important;
+    padding-right: 3px !important;
+}
+
+.button-toolbar>button {
+    fill: rgb(105, 105, 105) !important;
+}
+
+
+/*tab container fixes*/
+
+.stacks-on.tabs-right .tab-strip .tab.tab-group,
+.stacks-on.tabs-left .tab-strip .tab.tab-group {
+    border-top: 7px solid transparent;
+}
+
+.tab-indicator.active {
+    background-color: rgb(85, 47, 37) !important;
+}
+
+.tab-indicator {
+    background-color: rgba(85, 47, 37, .5) !important;
+}
+
+.tab-header {
+    background-color: rgba(33, 33, 33, .5) !important;
+}
+
+.tab-header .favicon {
+    opacity: .7 !important;
+}
+
+.tab.active {
+    color: rgba(165, 166, 167, 1.0) !important;
+}
+
+.tab {
+    color: rgba(165, 166, 167, .5) !important;
+    margin-bottom: 0px !important;
+}
+
+.button-badge {
+    padding-bottom: 3px !important;
+    font-size: 10px !important;
+}
+
+
+/*remove scrollbar*/
+
+.tab-strip::-webkit-scrollbar {
+    display: none !important;
+}
+
+.tab-strip {
+    -webkit-app-region: drag;
+}
+
+.newtab,
+.toggle-trash {
+    display: none !important;
+}
+
+
+/*fix startpage*/
+
+.startpage {
+    background-color: transparent !important;
+}
+
+.startpage-navigation {
+    display: none !important;
+    background-color: var(--colorBgAlpha) !important;
+}
+
+.button-startpage::after {
+    display: none;
+}
+
+.thumbnail-image {
+    background-image: none !important;
+}
+
+.searchfield {
+    display: none;
+    border: none;
+    background-color: var(--colorBgAlpha);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 0px 1px, rgba(0, 0, 0, 0.12) -4.04167px 3px 3px;
+    opacity: .7;
+}
