@@ -10,6 +10,15 @@ div[class*="wrapper"]:active {
     background: rgba(255, 148, 0, .2);
 }
 
+.da-wrapper,
+.da-CircleIconButton {
+    background: transparent;
+}
+
+.da-wrapper .da-button {
+    background: transparent;
+}
+
 .theme-dark div[class^="member"]:hover div[class^="content"] {
     color: #ffffffd4;
     background: transparent;
