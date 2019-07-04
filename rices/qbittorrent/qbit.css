@@ -1,0 +1,131 @@
+html,
+body {
+    background: #333 !important;
+    color: #888 !important;
+}
+
+#desktopHeader,
+#desktopNavbar,
+.panel,
+#desktopFooter,
+.statusBarSeparator {
+    background: transparent !important;
+}
+
+#pageWrapper {
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+#mochaToolbar .divider {
+    background-image: none;
+}
+
+.dynamicTable th {
+    background-color: #444 !important;
+    border-color: #555 !important;
+}
+
+.dynamicTable tbody tr:hover {
+    color: #aaa;
+}
+
+tr {
+    background-color: #333 !important;
+}
+
+tr:nth-child(even) {
+    background-color: #444 !important;
+}
+
+a {
+    color: #888 !important;
+}
+
+li:hover,
+.selectedFilter {
+    background-color: #444 !important;
+}
+
+.mochaToolButton:hover {
+    -webkit-filter: brightness(150%);
+}
+
+.progressbar_wrapper {
+    border: none !important;
+}
+
+.progressbar_light {
+    background-color: transparent!important;
+    color: #888 !important;
+}
+
+.progressbar_dark {
+    background: rgba(255, 148, 0, .5) !important;
+}
+
+#filtersColumn_handle {
+    margin: 0;
+}
+
+.columnHandle {
+    width: 2px;
+    border: none;
+    background: #555;
+}
+
+fieldset {
+    border: 2px solid #555;
+}
+
+.horizontalHandle {
+    background: #555;
+}
+
+.panel-header {
+    border: none;
+}
+
+.panel-header,
+.panel-headerContent.tabs,
+.toolbarTabs {
+    background: transparent;
+}
+
+.toolbarTabs li {
+    background: transparent;
+}
+
+.panel-collapse {
+    -webkit-filter: brightness(50%) grayscale(100%);
+}
+
+#alternativeSpeedLimits {
+    -webkit-filter: brightness(60%) grayscale(40%);
+}
+
+.panel {
+    border: none;
+}
+
+.tab-menu li a {
+    padding: 6px 15px 5px 10px;
+    background: transparent;
+    margin-left: 0;
+}
+
+.tab-menu li.selected {
+    background: transparent;
+}
+
+.tab-menu li.selected a {
+    background: #444;
+}
+
+.dynamicTable tbody tr.selected {
+    color: #aaa;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
